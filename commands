@@ -1,0 +1,24 @@
+To see which port number is used or network detail
+  netstat -lnp
+
+To unblock port number
+  fuser -k pid/tcp
+  
+To change file permission
+  Owner+group+other
+  every file and folder contain 8 bit data which controls permissin, o to 7, 
+  0:no permission
+  1:execute
+  2:write
+  3:execute+write
+  4:Read
+  5:Read+execute
+  6:Read+write
+  7:Read+write+execute
+  
+  sudo chmod ??? file_name
+  
+Find file location
+  find / -name file_name
+  locate file_name
+  
