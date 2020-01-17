@@ -22,3 +22,5 @@ Find file location
   find / -name file_name
   locate file_name
   
+chang directory from any path
+  cd ~/Directory_name
