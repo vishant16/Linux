@@ -1,7 +1,8 @@
+kill all process
+   kill -15 -1
+
 Resolve broken installations
    apt --fix-broken install
-
-
 
 To see which port number is used or network detail
   netstat -lnp
