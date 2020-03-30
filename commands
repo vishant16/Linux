@@ -1,3 +1,13 @@
+unblock installation by other source
+sudo lsof /var/lib/dpkg/lock
+sudo lsof /var/lib/apt/lists/lock
+sudo lsof /var/cache/apt/archives/lock
+sudo kill -9 <process_id>
+sudo rm /var/lib/apt/lists/lock
+sudo rm /var/cache/apt/archives/lock
+sudo rm /var/lib/dpkg/lock
+
+
 download installation from requirement file
    pip install -r filename
 
