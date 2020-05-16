@@ -44,3 +44,6 @@ Find file location
   
 chang directory from any path
   cd ~/Directory_name
+
+display all installed app
+  dpkg --get-selections
