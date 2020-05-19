@@ -50,3 +50,5 @@ display all installed app
 
 To check memory usage
    free -m 
+Remove unused packages and dependency
+   sudo apt-get autoremove
