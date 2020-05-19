@@ -47,3 +47,6 @@ chang directory from any path
 
 display all installed app
   dpkg --get-selections
+
+To check memory usage
+   free -m 
