@@ -1,3 +1,9 @@
+#to update
+
+sudo apt-get --only-upgrade install NAME
+
+
+
 unblock installation by other source
 sudo lsof /var/lib/dpkg/lock
 sudo lsof /var/lib/apt/lists/lock
