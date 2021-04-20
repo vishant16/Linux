@@ -58,3 +58,9 @@ To check memory usage
    free -m 
 Remove unused packages and dependency
    sudo apt-get autoremove
+   
+Hide path in terminal
+   export PS1="$"
+
+Install deb
+   sudo dpkg -i name.deb
