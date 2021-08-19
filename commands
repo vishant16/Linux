@@ -64,3 +64,14 @@ Hide path in terminal
 
 Install deb
    sudo dpkg -i name.deb
+
+
+
+Reset bootable usb
+   terminal
+   df -TH
+   check device id e.g /dev/sdbX
+   sudo umount /dev/sdbX
+   sudo mkfs.vfat -I /dev/sdb
+   
+
